@@ -16,6 +16,4 @@ int main(){
     c=a.cross(a,b);
     std::cout<<c<<std::endl;
     std::cout<<b.size()<<std::endl;
-    Vector<float> d(b);
-    std::cout<<d[0]<<" "<<d[1]<<std::endl;
 }
